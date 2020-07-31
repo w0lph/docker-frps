@@ -1,3 +1,4 @@
+FROM heroku/heroku:18
 FROM golang:alpine AS build
 
 RUN apk --no-cache add build-base git gcc
